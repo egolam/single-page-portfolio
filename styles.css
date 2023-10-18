@@ -331,15 +331,7 @@ u{
     display: flex;
     flex-direction: column;
     width: 50%;
-    gap: 2rem;
-}
-
-.form-flex > div > input{
-    padding-left: 1rem;
-}
-
-.form-flex > div > textarea{
-    padding-left: 1rem;
+    gap: 1.5rem;
 }
 
 .form-flex > div > input{
@@ -350,14 +342,8 @@ u{
     outline: none;
     color: var(--pure-white);
     caret-color: var(--pure-white);
-}
-
-.form-flex > div > input:valid{
-    border-bottom: 1px solid var(--pale-green);
-}
-
-.form-flex > div > input:invalid{
-    border-bottom: 1px solid rgba(255, 0, 0, 0.76);
+    padding-left: 1rem;
+    font-size: 16px;
 }
 
 .form-flex > div > textarea{
@@ -367,6 +353,7 @@ u{
     outline: none;
     color: var(--pure-white);
     caret-color: var(--pure-white);
+    padding-left: 1rem;
 }
 
 .form-name{
@@ -377,11 +364,33 @@ u{
 .form-email{
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.form-email > p{
+    display: none;
+}
+
+.form-email > i{
+    position: absolute;
+    color: #FF6F5B;
+    align-self: flex-end;
+    top: 20%;
+    display: none;
+}
+
+.warning{
+    color: #FF6F5B;
+    font-size: 12px;
+    font-weight: normal;
+    align-self: flex-end;
+    margin-top: 0.5rem;
 }
 
 .form-message{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .button-wrapper{

@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +60,8 @@
       <h1 class="h-xl">Nice to meet you! <br>I'm <u>Adam Keyes</u>.</h1>
       <p class="t-m">Based in the UK, I’m a front-end developer <br>passionate about building accessible web apps
         <br>that
-        users love.</p>
+        users love.
+      </p>
       <div class="contact-me">
         <a href="#footer">CONTACT ME</a>
         <hr class="contant-me-hr">
@@ -257,17 +261,19 @@
 
         <div class="form-name">
 
-          <input type="text" name="givenname" id="givenname" class="t-m" minlength="3" required placeholder="NAME">
+          <input type="text" name="givenname" id="givenname" class="t-m" minlength="3" placeholder="NAME">
         </div>
 
         <div class="form-email">
 
-          <input type="email" name="email" id="email" class="t-m" required placeholder="EMAIL">
+          <input type="text" name="email" id="email" class="t-m" placeholder="EMAIL">
+          <i class="fa-solid fa-circle-exclamation warning-icon"></i>
+          <p class="warning">Sorry, invalid format here</p>
         </div>
 
         <div class="form-message">
 
-          <textarea name="message" id="message" cols="30" rows="4" class="t-m" required
+          <textarea name="message" id="message" cols="30" rows="4" class="t-m"
             placeholder="MESSAGE"></textarea>
         </div>
 
