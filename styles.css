@@ -51,10 +51,6 @@ body{
 
 }
 
-#logo:visited{
-    color: var(--pure-white);
-}
-
 .profile-image{
     position: absolute;
     max-width: 27.813rem;
@@ -94,6 +90,7 @@ header .header-wrapper{
     text-decoration: none;
     position: relative;
     z-index: 1;
+    color: var(--pure-white);
 
 }
 
