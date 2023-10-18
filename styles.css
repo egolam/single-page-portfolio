@@ -51,7 +51,7 @@ body{
 
 }
 
-a:visited{
+#logo:visited{
     color: var(--pure-white);
 }
 
