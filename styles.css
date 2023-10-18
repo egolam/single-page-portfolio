@@ -51,6 +51,10 @@ body{
 
 }
 
+a:visited{
+    color: var(--pure-white);
+}
+
 .profile-image{
     position: absolute;
     max-width: 27.813rem;
